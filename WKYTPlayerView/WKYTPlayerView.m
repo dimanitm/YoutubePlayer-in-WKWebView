@@ -1094,7 +1094,7 @@ NSString static *const kWKYTPlayerSyndicationRegexPattern = @"^https://tpc.googl
     
     configuration.userContentController = wkUController;
     
-    configuration.allowsInlineMediaPlayback = YES;
+    configuration.allowsInlineMediaPlayback = NO;
     configuration.mediaPlaybackRequiresUserAction = NO;
     
     WKWebView *webView = [[WKWebView alloc] initWithFrame:self.bounds configuration:configuration];
